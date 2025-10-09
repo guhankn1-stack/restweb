@@ -1,0 +1,49 @@
+body{
+    background-image:url(tabletop-looking-out-empty-restaurant_23-2147701293.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 140, 3) ;
+    background-repeat: no-repeat;
+}
+
+a{
+    padding: 15px;
+    color:rgb(214, 5, 190);
+    position: relative;
+    left: 1100px;
+    top: 20px;
+}
+a:hover{
+    background-color: rgb(57, 110, 147);
+    color:blue;
+}
+.name{
+    text-align: center;
+    position: relative;
+    left: 295px;
+    top:20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color:  rgb(75, 64, 118);
+    font-size: 30px;
+    width: 1000px;
+   
+}
+
+.offer{
+    text-align: right;
+    font-size: 40px;
+    color: rgb(252, 114, 114);
+    position: relative;
+    right: 100px;
+    top:200px;
+
+}
+.bottom{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 190px;
+    background-color: rgb(34, 3, 90);
+}
