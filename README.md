@@ -202,6 +202,324 @@ Publish the website in the given URL.
         </footer>
     </body>
 </html>
+
+home.css
+
+body{
+    background-image:url(tabletop-looking-out-empty-restaurant_23-2147701293.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 140, 3) ;
+    background-repeat: no-repeat;
+}
+
+a{
+    padding: 15px;
+    color:rgb(214, 5, 190);
+    position: relative;
+    left: 1100px;
+    top: 20px;
+}
+a:hover{
+    background-color: rgb(57, 110, 147);
+    color:blue;
+}
+.name{
+    text-align: center;
+    position: relative;
+    left: 295px;
+    top:20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color:  rgb(75, 64, 118);
+    font-size: 30px;
+    width: 1000px;
+   
+}
+
+.offer{
+    text-align: right;
+    font-size: 40px;
+    color: rgb(252, 114, 114);
+    position: relative;
+    right: 100px;
+    top:200px;
+
+}
+.bottom{
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 190px;
+    background-color: rgb(34, 3, 90);
+}
+
+contanct.css
+
+body{
+    background-image:url(contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+
+a{
+    padding: 15px;
+    color:rgb(166, 223, 253);
+    position: relative;
+    left: 1100px;
+    top: 20px;
+    font-size: 20px;
+}
+.bottom{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(181, 222, 14, 0.768);
+    position: relative;
+    top: 120px;
+}
+.contanct-container{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+    
+    height:400px;
+    width:390px;
+    display: block;
+    gap: 20px;
+    font-size: 20px;
+    position: relative;
+    left: 600px;
+    top:20px;
+    border-radius: 10%;
+}
+h2,h3,h4{
+    font-size: 27px;
+}
+
+menu.css
+
+body{
+    
+    background:url(Sticky-Honey-Chicken.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+}
+
+a{
+    padding: 15px;
+    color:rgb(227, 144, 0);
+    position: relative;
+    left: 1100px;
+    top: 20px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.food1{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+}
+.food2{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    left: 80px;
+    
+}
+.food3{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+}
+.food4{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+    
+}
+.food5{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+    
+}
+.food6{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    
+}
+.food7{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    
+}
+.food8{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    
+}
+.food9{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    
+}
+.food10{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    
+}
+.food11{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    top: 10px;
+    
+}
+.food12{
+    padding: 10px;
+    background-color: rgba(218, 156, 64, 0.829);
+    width: 180px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+img{
+    width: 170px;
+    height: 100px;
+    
+}
+h1{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    left:600px;
+    padding: 10px;
+    background-color: rgba(107, 83, 32, 0.951);
+    color: rgb(184, 170, 170);
+    width:200px;
+}
+.bottom{
+    font-size: 30px;
+    text-align: center;
+    background-color: brown;
+    position: relative;
+    top: 30px;
+}
+
+admin.css
+
+body{
+    background-image: url(tabletop-looking-out-empty-restaurant_23-2147701293.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    padding: 15px;
+    color:rgb(145, 119, 4);
+    position: relative;
+    left: 1100px;
+    top: 20px;
+    font-size: 20px;
+    font-size: x-large;
+}
+.admin{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    font-size: 20px;
+    gap:10px;
+}
+img{
+    width: 210px;
+    height: 300px;
+    border:solid 5px rgb(240, 235, 235);
+}
+.a1,.a2,.a3,.a4,.a5,.a6{
+    padding: 5px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 24px;
+    
+}
+.bottom{
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(44, 35, 35, 0.632);
+    position: relative;
+    top: 60px;
+    color:white;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
+
+
 ```
 
 ## OUTPUT:
